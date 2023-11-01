@@ -2,26 +2,37 @@
 
 name: build-resume
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: 
+    branches:
       - master
       - main
     paths:
       - 'markdown/**'
+  pull_request:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: articulate/actions-markdownlint@v1
+        with:
+          config: .markdownlint.json
+          files: 'markdown/*.md'
+          version: 0.37.0
+
   build-resume:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       - name: Test directory contents
         run: 'ls -al'
 
