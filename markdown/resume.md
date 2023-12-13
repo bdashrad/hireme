@@ -28,10 +28,11 @@ Chelmsford, MA 01824                                                       [GitH
 
 As Head of Platform and Data Engineering, I enable our development, data analytics, and other teams to work quickly,
 without technology getting in the way. This is accomplished by working together to create a shared understanding of
-our technical and business needs, and using this knowledge to design mature systems, allowing engineers, analysts,
-and others to do what we hired them for instead of fighting tooling and process to get there. I built data pipelines in
+our technical and business needs, then using this knowledge to design mature systems allowing engineers, analysts,
+and others to do what we hired them for, instead of fighting tooling or process to get there. I built data pipelines in
 python, bash, and sql using Argo Workflows, DBT, Big Query, and a mix of SaaS tools. Automated many manual reporting
-and data import processes to remove risk of errors and improve turn around time.
+and data import processes to remove risk of errors, and improve turn around time. Designed systems, processes, and
+procedures to follow best practices, keeping in mind HIPAA and other compliance requirements.
 
 **Head of Infrastructure**; 4/2021 — 8/2023
 
@@ -46,9 +47,10 @@ hiring, and more.
 **Associate Director, Senior Infrastructure Engineer**; 1/2019 — 4/2021
 
 As the technical lead for the infrastructure team, I worked with engineering teams to advise on platform and
-architecture decisions. With the infrastructure team, I acted as a technical resource and mentor, helping the team
+architecture decisions. Within the infrastructure team, I acted as a technical resource and mentor, helping the team
 maintain our internal services and the build pipeline. Our team provided well documented, maintainable, and highly
-available services, following our revised production readiness process that for all of our engineering teams.
+available services, following our revised production readiness process to ensure service reliability and stability for
+all products across our engineering teams.
 
 ### Maxwell Health - Boston, MA
 
