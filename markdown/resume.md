@@ -29,10 +29,11 @@ Chelmsford, MA 01824                                                       [GitH
 As Head of Platform and Data Engineering, I enable our development, data analytics, and other teams to work quickly,
 without technology getting in the way. This is accomplished by working together to create a shared understanding of
 our technical and business needs, then using this knowledge to design mature systems allowing engineers, analysts,
-and others to do what we hired them for, instead of fighting tooling or process to get there. I built data pipelines in
-python, bash, and sql using Argo Workflows, DBT, Big Query, and a mix of SaaS tools. Automated many manual reporting
-and data import processes to remove risk of errors, and improve turn around time. Designed systems, processes, and
-procedures to follow best practices, keeping in mind HIPAA and other compliance requirements.
+and others to do what we hired them for, instead of fighting tooling or process to get there. Designed systems,
+processes, and procedures to follow best practices, keeping in mind HIPAA and other compliance requirements. Provided
+mentorship and leadership for others across multiple teams. I built data pipelines in python, bash, and sql using Argo
+Workflows, DBT, Big Query, and a mix of SaaS tools. Automated many manual reporting and data import processes to remove
+risk of errors, and improve turn around time.
 
 **Head of Infrastructure**; 4/2021 — 8/2023
 
