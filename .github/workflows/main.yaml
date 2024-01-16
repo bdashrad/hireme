@@ -25,7 +25,7 @@ jobs:
         with:
           config: .markdownlint.json
           files: 'markdown/*.md'
-          version: 0.37.0
+          version: 0.38.0
 
   build-resume:
     runs-on: ubuntu-latest
