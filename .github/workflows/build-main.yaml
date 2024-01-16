@@ -30,6 +30,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           # Artifact name
-          name: resume-${{ github.ref }}.pdf
+          name: resume-${{ github.sha }}.pdf
           # A file, directory or wildcard pattern that describes what to upload
           path: output/resume.pdf
