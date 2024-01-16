@@ -3,5 +3,5 @@ name: 'Texlive Build'
 description: 'Build a document using texlive'
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/bdashrad/hireme:master'
+  image: 'docker://ghcr.io/bdashrad/hireme:main'
   entrypoint: '/entrypoint.sh'
