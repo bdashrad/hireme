@@ -1,0 +1,25 @@
+name: lint-resume
+
+# Controls when the action will run.
+# yamllint disable-line rule:truthy
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches:
+      - main
+    paths:
+      - 'markdown/**'
+  pull_request:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: articulate/actions-markdownlint@v1
+        with:
+          config: .markdownlint.json
+          files: 'markdown/*.md'
