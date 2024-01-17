@@ -14,11 +14,29 @@ Chelmsford, MA 01824                                                       [GitH
 
 ## Summary
 
+- 13+ years combined experience in engineering and leadership, building infra, platform, and data engineering teams from
+  scratch to being a high-performing individual contributor.
+- Use experience and technology to build teams and tooling that enables developers, analysts, and more to spend more
+  time doing what you hired them to do.
 - Information is key to making smart decisions.
 - Technology should enable teams to work faster and smarter, not harder.
 - Automation is always better than repetition.
 - Fixing a problem correctly the first time is preferable to leaving it to resurface later, but getting things done
   is the most important part.
+
+## Relevant Skills
+Platform and Data Engineering Tooling
+:   Kubernetes, Terraform, Helm, Docker, dbt, Argo Workflows, Ansible, Git, MySQL, PostgreSQL, MongoDB, Apache HTTP,
+    NGINX, BigQuery, Vault, Github Actions, Travis-CI, Elasticsearch, Logstash, Linux
+
+Cloud Systems and SaaS
+:   GCP, AWS, Datadog, Cloudflare, Skyvia, Fivetran, Doppler, Jira, Github
+
+Languages
+:   Bash, Python, Ruby, Go, YAML, HCL, regex, node.js, JavaScript, Markdown
+
+Security, Compliance, and Process
+:   HIPAA, SOC2, PCI-DSS, SAST, Jira, Scrum, Kanban, CI/CD
 
 ## Experience
 
@@ -103,20 +121,6 @@ responsible for parts of PCI-DSS compliance, policies, and reviewing security in
 Created a PC cloning and imaging solution for the rapid deployment of employee systems using Clonezilla and DRBL.
 Assisted in the design and implementation of escalation procedures for operations to development. Took over as sole
 Linux systems administrator and became a full-time employee.
-
-## Relevant Skills
-
-Core
-:   Engineering Leadership, Performance and Capacity Planning, Systems Design, Code Review, AWS, GCP, Linux, Bash, git,
-    Terraform, Helm, Kubernetes, Elasticsearch, Docker, Nginx, Logstash, HIPAA, Argo Workflows
-
-Familiar
-:   MySQL, PostgreSQL, MongoDB, Vault, Nagios, Hubot, Graphite, Puppet, RegEx, Apache httpd, Python, Ruby, OSSEC, Vagrant,
-    PCI-DSS, Ansible, DBT, Skyvia, BigQuery, Datadog
-
-Other
-:   markdown, Jira, kanban, scrum, node.js, golang
-:   Read and comprehend most C-Family languages
 
 ## Education
 
