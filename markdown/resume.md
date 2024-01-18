@@ -16,7 +16,7 @@
 
 ## Skills
 
-Tools and Technology
+Tools
 :   Kubernetes, Terraform, GCP, AWS, Helm, Docker, Ansible, Git, NGINX, Apache HTTP, MySQL, PostgreSQL, MongoDB, Linux,
     BigQuery, dbt, Argo Workflows, Skyvia, Fivetran, Vault, Github Actions, Travis-CI, Elasticsearch, Logstash, Datadog,
     Cloudflare, Jira, Doppler, Vault, Github
