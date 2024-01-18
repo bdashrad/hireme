@@ -29,7 +29,7 @@ Other
 
 ## Experience
 
-### Eleanor Health - Remote
+### Eleanor Health – Remote
 
 **Head of Platform and Data Engineering**; 8/2023 — Present
 
@@ -52,7 +52,7 @@ Other
   recovery and compliance requirements
 - Decreased page load times by over 50% by identifying areas for improvement and helping implement them
 
-### Sun Life (Maxwell Health) - Remote
+### Sun Life (Maxwell Health) – Remote
 
 **Associate Director, Senior Infrastructure Engineer**; 1/2019 — 4/2021
 
@@ -64,7 +64,7 @@ Other
   docker, and helm and multiple Kubernetes environments
 - Redesigned MongoDB deployment for rapid, automated recovery of lost nodes
 
-### Maxwell Health - Boston, MA
+### Maxwell Health – Hybrid, Boston, MA
 
 **Infrastructure Engineer**; 8/2016 — 1/2019
 
@@ -76,13 +76,13 @@ Other
 - Enhanced developer productivity by building templated Helm charts for kubernetes
 - Standardized CI/CD build pipeline
 
-### Curriculum Associates - Boston, MA
+### Curriculum Associates – Boston, MA
 
 **Senior Operations Engineer**; 5/2016 — 8/2016
 
 - Saved ~$10k/month by designing a centralized log management system backed by Logstash and Elasticsearch
 
-### Acquia - Boston, MA
+### Acquia – Hybrid, Boston, MA
 
 **Site Reliability Engineer**; 8/2014 — 5/2016
 
