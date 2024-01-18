@@ -29,7 +29,7 @@ Other
 
 ## Experience
 
-### Eleanor Health - Waltham, MA
+### Eleanor Health - Remote
 
 **Head of Platform and Data Engineering**; 8/2023 — Present
 
@@ -52,7 +52,7 @@ Other
   recovery and compliance requirements
 - Decreased page load times by over 50% by identifying areas for improvement and helping implement them
 
-### Sun Life (Maxwell Health) - Boston, MA
+### Sun Life (Maxwell Health) - Remote
 
 **Associate Director, Senior Infrastructure Engineer**; 1/2019 — 4/2021
 
@@ -76,7 +76,7 @@ Other
 - Enhanced developer productivity by building templated Helm charts for kubernetes
 - Standardized CI/CD build pipeline
 
-### Curriculum Associates - Billerica, MA
+### Curriculum Associates - Boston, MA
 
 **Senior Operations Engineer**; 5/2016 — 8/2016
 
@@ -102,7 +102,7 @@ Other
 - Lowered MTTR (mean time to resolve) by developing command-line tooling for automating ticket creation
 - Improved engineer productivity by creating a standardized development environment using Vagrant
 
-### PlumChoice - Lowell, MA
+### PlumChoice - Boston, MA
 
 **Linux Systems Administrator**; 10/2011 — 7/2013
 
