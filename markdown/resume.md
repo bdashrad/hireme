@@ -1,122 +1,122 @@
-# Bradford Clark
+# Brad Clark
 
 ---------------------                                                 --------------------------------------------------
-50 Manning Rd                                                                                       <bdashrad@gmail.com>
-Chelmsford, MA 01824                                                       [GitHub:bdashrad](http://github.com/bdashrad)
+<bdashrad@gmail.com>                                                       [GitHub:bdashrad](http://github.com/bdashrad)
 +1 978.822.0077                                                       [LinkedIn](https://linkedin.com/in/bradfordclark/)
 ---------------------                                                 --------------------------------------------------
 
 ---
 
-> I lead teams that focus on maximizing the time engineers and stakeholders spend on solving business problems,
-> and minimize the time they need to spend on technical details around implementation, deployment, operations, and
-> monitoring of these solutions.
-
 ## Summary
 
-- Information is key to making smart decisions.
-- Technology should enable teams to work faster and smarter, not harder.
-- Automation is always better than repetition.
-- Fixing a problem correctly the first time is preferable to leaving it to resurface later, but getting things done
-  is the most important part.
+- 13+ years combined experience in leadership and platform engineering; built engineering teams from scratch up to 6
+  engineers
+- Maintained 99.98% service uptime by implementing best practices, observability tooling, and CI/CD improvements
+- Able to quickly switch from a high-level business-centric view of a situation to a deep technical dive as required
+- Open-source maintainer and contributor
+
+## Skills
+
+Tools
+:   Kubernetes, Terraform, GCP, AWS, Helm, Docker, Ansible, Git, NGINX, Apache HTTP, MySQL, PostgreSQL, MongoDB, Linux,
+    BigQuery, dbt, Argo Workflows, Skyvia, Fivetran, Vault, Github Actions, Travis-CI, Elasticsearch, Logstash, Datadog,
+    Cloudflare, Jira, Doppler, Vault, Github
+
+Languages
+:   Bash, Python, Ruby, Go, YAML, HCL, regex, node.js, JavaScript, Markdown
+
+Other
+:   HIPAA, SOC2, PCI-DSS, Jira, Scrum, Kanban, CI/CD, Capacity Planning, System Design
 
 ## Experience
 
-### Eleanor Health - Waltham, MA
+### Eleanor Health – Remote
 
 **Head of Platform and Data Engineering**; 8/2023 — Present
 
-As Head of Platform and Data Engineering, I enable our development, data analytics, and other teams to work quickly,
-without technology getting in the way. This is accomplished by working together to create a shared understanding of
-our technical and business needs, then using this knowledge to design mature systems allowing engineers, analysts,
-and others to do what we hired them for, instead of fighting tooling or process to get there. Designed systems,
-processes, and procedures to follow best practices, keeping in mind HIPAA and other compliance requirements. Provided
-mentorship and leadership for others across multiple teams. I built data pipelines in python, bash, and sql using Argo
-Workflows, DBT, Big Query, and a mix of SaaS tools. Automated many manual reporting and data import processes to remove
-risk of errors, and improve turn around time.
+- Hired and built the data engineering team from scratch
+- Managed members of 4 engineering teams: software development, platform engineering, and data engineering, providing
+  mentorship and coaching while balancing business needs and priorities
+- Worked closely with business stakeholders to identify key projects that have the biggest business impact
+- Product manager for data engineering and platform engineering, balancing feature work with tech debt
+- Reduced data processing times for tasks from days to minutes by improving pipelines
+- Worked to save nearly 25% of an FTE's time by identifying and automating manual work
 
 **Head of Infrastructure**; 4/2021 — 8/2023
 
-Worked with our engineering team to create highly available infrastructure to run our platform on, including
-standardized logging, metrics, monitoring which allow us to move quickly with little customer facing downtime. Improved
-build pipelines and CI/CD process. Worked with external partners to set up multiple systems for data ingestion and
-processing. Prepared for SOC2 certification. Wrote and maintained documentation around onboarding, production readiness,
-hiring, and more.
+- Hired and built the infrastructure engineering team from scratch
+- Co-authored, designed, and developed our engineering hiring guidelines and process, as well as our engineering career
+  ladder
+- Reduced number of bad production deploys to near-zero (99.98% uptime) by implementing observability tooling and
+  a production readiness process, which allowed more things to be caught before services were impacted
+- Maintained HIPAA and achieved SOC2 Type 1 compliance through thoughtful system design and documentation.
+- Built highly-available infrastructure to host our patient management and member apps, taking into account disaster
+  recovery and compliance requirements
+- Decreased page load times by over 50% by identifying areas for improvement and helping implement them
 
-### Sun Life (Maxwell Health) - Boston, MA
+### Sun Life (Maxwell Health) – Remote
 
 **Associate Director, Senior Infrastructure Engineer**; 1/2019 — 4/2021
 
-As the technical lead for the infrastructure team, I worked with engineering teams to advise on platform and
-architecture decisions. Within the infrastructure team, I acted as a technical resource and mentor, helping the team
-maintain our internal services and the build pipeline. Our team provided well documented, maintainable, and highly
-available services, following our revised production readiness process to ensure service reliability and stability for
-all products across our engineering teams.
+- Rebuilt infrastructure team from near-zero to 5 engineers
+- Advised engineering teams on platform and architectural decisions
+- Provided technical and professional leadership and mentorship to the infrastructure team
+- Wrote production readiness guidelines and advised development teams on best practices
+- Maintain a standardized deployment pipeline built with github actions, docker, and helm and multiple Kubernetes
+  environments
+- Redesigned MongoDB deployment for rapid, automated recovery of lost nodes
 
-### Maxwell Health - Boston, MA
+### Maxwell Health – Hybrid, Boston, MA
 
 **Infrastructure Engineer**; 8/2016 — 1/2019
 
-As a senior member of the infrastructure team, I led some of our long term infrastructure projects and was responsible
-for platform and service stability. Moved infrastructure to terraform, improving service deployment time and allowing
-for faster disaster recovery. Designed event message store backed by Elasticsearch and Logstash. Migrated services from
-Elastic Beanstalk to kubernetes using helm and a standardized build pipeline.
+- Moved all AWS infrastructure to terraform, enabling auditing of changes, decreased deployment time, and rapid disaster
+  recovery
+- Designed event message store backed by Elasticsearch, enabling efficient and reliable communication between dozens of
+  microservices, while providing durability and the ability to replay messages as needed
+- Reduced deployment time ~90% by migrating microservices from Elastic Beanstalk to Kubernetes
+- Enhanced developer productivity by building templated Helm charts for kubernetes
+- Standardized CI/CD build pipeline
 
-### Curriculum Associates - Billerica, MA
+### Curriculum Associates – Boston, MA
 
 **Senior Operations Engineer**; 5/2016 — 8/2016
 
-Designed a scalable, easily deployable, centralized log management and processing system using Terraform, Puppet,
-Logstash, Elasticsearch, and Kibana on Amazon Web Services.
+- Saved ~$10k/month by designing a centralized log management system backed by Logstash and Elasticsearch
 
-### Acquia - Boston, MA
+### Acquia – Hybrid, Boston, MA
 
 **Site Reliability Engineer**; 8/2014 — 5/2016
 
-At Acquia, I spent my time between acting as a dedicated resource for a large customer, ensuring site availability
-during some of the world's largest events, including the Olympics, the Super Bowl, and more. Working as a strategic
-contact and partner, I had regular calls and on-site visits to ensure site availability and performance was maintained
-at a high level, during standard operations and high traffic events. I used this experience to develop auditing and
-automation tools, to lower our mean time to resolve customer issues, as well as predict and address them before they
-occur.
+- Ensured site availability during some of the world's largest events: The Olympics, The Superbowl, and more.
+- Dedicated operations resource for large enterprise customer
+- Worked in a high-touch relationship with the customer, including regular calls and on-site visits
+- Reduced downtime to near-zero from multiple customers, by developing tools for auditing and automation to allow for
+  capacity planning as needs changed
+- Maintained high availability infrastructure for customer sites and ensured uptime during high traffic events
+- Improved platform monitoring and create auditing tools to improve stability
+- Built tooling to use metrics to provide proactive notifications of pending issues before they occur
 
 **Senior Cloud Systems Engineer**; 7/2013 — 8/2014
 
-As an engineer at Acquia, I helped maintain a fleet of 13,000+ systems on EC2, and helped redesign the monitoring system
-to accommodate thousands of simultaneous checks. I developed tooling to streaming the creation of support tickets from
-the operations team, improving site stability for customers. I created a standardized development environment using
-Vagrant to enable consistent local testing.
+- Manage and maintain 13,000+ Linux Systems on Amazon EC2.
+- Redesigned the monitoring system to accommodate 10,000+ systems and 300,000+ services
+- Lowered MTTR (mean time to resolve) by developing command-line tooling for automating ticket creation
+- Improved engineer productivity by creating a standardized development environment using Vagrant
 
-### PlumChoice - Lowell, MA
+### PlumChoice - Boston, MA
 
 **Linux Systems Administrator**; 10/2011 — 7/2013
 
-As a Systems Administrator at PlumChoice I brought all linux systems under centralized configuration management and
-ensure they were always fully patched. I architected our system and network monitoring, across sites worldwide, using
-Nagios/Icinga, Logstash, Splunk, and custom scripts for system tasks and monitoring. I was responsible for deploying and
-managing linux and Windows systems, both virtual (VMWare ESX & VCenter) and bare-metal. Configured and maintained our
-web application firewall and load balancers for our core applications. I acted as our company Security Administrator,
-responsible for parts of PCI-DSS compliance, policies, and reviewing security incidents.
+- Centralized management configuration and security updates for Red Hat, CentOS, and Ubuntu Servers
+- Architected system and network monitoring across multiple sites worldwide, using Nagios, Icinga, and Splunk
+- Acted as company Security Administrator, for PCI-DSS certification. Assisted in writing policies, procedures, and
+  reviewing all security incidents
 
 **IT Infrastructure Consultant**; 2/2011 — 10/2011
 
-Created a PC cloning and imaging solution for the rapid deployment of employee systems using Clonezilla and DRBL.
-Assisted in the design and implementation of escalation procedures for operations to development. Took over as sole
-Linux systems administrator and became a full-time employee.
-
-## Relevant Skills
-
-Core
-:   Engineering Leadership, Performance and Capacity Planning, Systems Design, Code Review, AWS, GCP, Linux, Bash, git,
-    Terraform, Helm, Kubernetes, Elasticsearch, Docker, Nginx, Logstash, HIPAA, Argo Workflows
-
-Familiar
-:   MySQL, PostgreSQL, MongoDB, Vault, Nagios, Hubot, Graphite, Puppet, RegEx, Apache httpd, Python, Ruby, OSSEC, Vagrant,
-    PCI-DSS, Ansible, DBT, Skyvia, BigQuery, Datadog
-
-Other
-:   markdown, Jira, kanban, scrum, node.js, golang
-:   Read and comprehend most C-Family languages
+- Created PC cloning and imaging solution using Clonezilla and DRBL
+- Designed and implemented escalation procedures for operations to development
 
 ## Education
 
@@ -131,5 +131,4 @@ Other
 
 ---
 
-> <bdashrad@gmail.com> • +1 978.822.0077 \
-> 50 Manning Rd, Chelmsford, MA 01824
+> <bdashrad@gmail.com> • +1 978.822.0077
