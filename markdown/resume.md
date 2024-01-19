@@ -1,8 +1,8 @@
 # Brad Clark
 
 ---------------------                                                 --------------------------------------------------
-<bdashrad@gmail.com>                                                       [GitHub:bdashrad](http://github.com/bdashrad)
-+1 978.822.0077                                                       [LinkedIn](https://linkedin.com/in/bradfordclark/)
+<bradfordallenclark@gmail.com>                                             [GitHub:bdashrad](http://github.com/bdashrad)
++1-978-846-1533                                                       [LinkedIn](https://linkedin.com/in/bradfordclark/)
 ---------------------                                                 --------------------------------------------------
 
 ---
@@ -131,4 +131,4 @@ Other
 
 ---
 
-> <bdashrad@gmail.com> • +1 978.822.0077
+> <bradfordallenclark@gmail.com> • +1-978-846-1533
