@@ -52,7 +52,7 @@ Other
 - Maintained HIPAA and achieved SOC2 Type 1 compliance through thoughtful system design and documentation.
 - Built highly-available infrastructure (over 99.99% uptime) to host our patient management and member apps, taking into
   account disaster recovery and compliance requirements
-- Decreased page load times by over 50% by identifying areas for improvement and helping implement them
+- Decreased page load times by over 50% by identifying areas for improvement and facilitating their implementation
 
 ### Sun Life (Maxwell Health) – Remote
 
