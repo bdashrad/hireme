@@ -34,24 +34,24 @@ Other
 
 **Head of Platform and Data Engineering**; 8/2023 — Present
 
-- Hired and built the data engineering team from scratch
-- Managed members of 4 engineering teams: software development, platform engineering, and data engineering, providing
+- Built the data engineering organization from scratch, through hiring and internal development of existing engineers
+- Managed members of four engineering teams: software development, platform engineering, and data engineering, providing
   mentorship and coaching while balancing business needs and priorities
 - Worked closely with business stakeholders to identify key projects that have the biggest business impact
 - Product manager for data engineering and platform engineering, balancing feature work with tech debt
 - Reduced data processing times for tasks from days to minutes by improving pipelines
-- Worked to save nearly 25% of an FTE's time by identifying and automating manual work
+- Reduced manual task ingestion work by 98% through automation
 
 **Head of Infrastructure**; 4/2021 — 8/2023
 
 - Hired and built the infrastructure engineering team from scratch
 - Co-authored, designed, and developed our engineering hiring guidelines and process, as well as our engineering career
   ladder
-- Reduced number of bad production deploys to near-zero (99.98% uptime) by implementing observability tooling and
+- Reduced number of bad production deploys to near-zero (99.98% app uptime) by implementing observability tooling and
   a production readiness process, which allowed more things to be caught before services were impacted
 - Maintained HIPAA and achieved SOC2 Type 1 compliance through thoughtful system design and documentation.
-- Built highly-available infrastructure to host our patient management and member apps, taking into account disaster
-  recovery and compliance requirements
+- Built highly-available infrastructure (over 99.99% uptime) to host our patient management and member apps, taking into
+  account disaster recovery and compliance requirements
 - Decreased page load times by over 50% by identifying areas for improvement and helping implement them
 
 ### Sun Life (Maxwell Health) – Remote
