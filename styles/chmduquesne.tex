@@ -1,8 +1,8 @@
 % Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
 % Copyright 2014 Mark Szepieniec <http://github.com/mszep>
-% 
+%
 % ConText style for making a resume with pandoc. Inspired by moderncv.
-% 
+%
 % This CSS document is delivered to you under the CC BY-SA 3.0 License.
 % https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
 
@@ -70,6 +70,8 @@ $endif$
   [before={\setupalign[middle]},
    indentnext=no,
   ]
+
+\setupalign[nothyphenated]
 
 $if(toc)$
 \setupcombinedlist[content][list={$placelist$}]
