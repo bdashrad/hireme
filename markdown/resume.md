@@ -49,7 +49,7 @@ Other
 - Built the data engineering organization from scratch, through hiring and internal development of existing engineers
 - Managed members of four engineering teams: software development, platform engineering, and data engineering, providing
   mentorship and coaching while balancing business needs and priorities
-- Worked closely with business stakeholders, such as the revenue cycle, clinical outreach, and partner relations teams,
+- Worked closely with business stakeholders, such as the Revenue Cycle, Clinical Outreach, and Partner Relations teams,
   to identify key projects that have the largest business impact
 - Product manager for data engineering and platform engineering, balancing feature work with tech debt
 - Reduced data processing times for tasks from 24-72 hours to approximately 15 minutes by improving pipelines, allowing
@@ -61,12 +61,12 @@ Other
 - Hired and built the infrastructure engineering team from scratch
 - Co-authored, designed, and developed our engineering hiring guidelines and process, helping to provide a consistent
   candidate experience and shorten our hiring cycle, while maintaining quality
-- Created onboarding and 30/60/90 day goals for engineers, creating a clearly defined path through onboarding, allowing
-  for an improved new hire experience. If a new user has a bad time, it’s a bug.
-- Created engineering competency matrix, providing a set of guidelines for growth and a career path for software,
-  infrastructure, and data engineers.
+- Created career ladders and competency matrices to align salary and performance expectations, and provide clear growth
+  paths for team members
+- Created onboarding and 30/60/90 day goals for engineers, creating a clearly defined path through onboarding to improve
+  the new hire experience. If a new user has a bad time, it’s a bug.
 - Reduced number of bad production deploys to near-zero (99.98% app uptime) by implementing observability tooling and
-  a production readiness process, which allowed more things to be caught before services were impacted
+  a production readiness process, enabling problem detection before services were impacted
 - Ensured products and systems met HIPAA compliance by leading architecture and technical discussions and
   implementations. Helped achieve SOC2 Type 1 compliance by partnering with the CISO and Head of Product Operations to
   complete the work across various teams, delegating work as required to complete our audit.
@@ -97,9 +97,9 @@ Other
 - Moved all AWS infrastructure to terraform, enabling auditing of changes, decreased deployment time, and rapid disaster
   recovery
 - Designed event message store backed by Elasticsearch, enabling efficient and reliable communication between dozens of
-  microservices, while providing durability and the ability to replay messages as needed
+  microservices, reducing technical debt while providing durability and the ability to replay messages as needed
 - Reduced deployment time ~90% by migrating microservices from Elastic Beanstalk to Kubernetes
-- Enhanced developer productivity by building templated Helm charts for kubernetes
+- Enhanced developer productivity by building templated Helm charts for Kubernetes
 - Improved engineer efficiency, cross-team collaboration, and software security by standardizing our CI/CD build pipeline
 
 ### Curriculum Associates – Boston, MA
