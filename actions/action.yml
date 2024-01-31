@@ -1,4 +1,5 @@
 # action.yml
+---
 name: 'Texlive Build'
 description: 'Build a document using texlive'
 runs:
