@@ -4,6 +4,7 @@ OUT_DIR=output
 IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne_purple
+TEMPLATES_DIR=templates
 
 all: html pdf docx rtf md
 
@@ -11,9 +12,10 @@ pdf: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.pdf; \
-		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
+		pandoc --standalone --template $(TEMPLATES_DIR)/$(STYLE).tex \
 			--from markdown --to context \
 			--variable papersize=letter \
+			--metadata-file=metadata.yaml \
 			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
 		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
 	done
@@ -21,14 +23,13 @@ pdf: init
 html: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
-		PAGE_TITLE=`echo $$FILE_NAME | tr '_' ' '`; \
 		echo $$FILE_NAME.html; \
 		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
-			--template templates/template.html5 \
+			--template $(TEMPLATES_DIR)/template.html5 \
 			--output $(OUT_DIR)/$$FILE_NAME.html $$f \
-			--metadata pagetitle="$$PAGE_TITLE";\
+			--metadata-file=metadata.yaml; \
 	done
 
 docx: init

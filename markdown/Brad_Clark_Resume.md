@@ -1,6 +1,3 @@
-% Brad Clark Resume
-% Brad Clark (bradfordallenclark@gmail.com)
-
 # Brad Clark
 
 ---------------------                                                 --------------------------------------------------
