@@ -20,7 +20,21 @@ $endif$
 \definecolor[rulecolor][h=7b52ae]
 
 % Enable hyperlinks
-\setupinteraction[state=start, color=sectioncolor]
+\setupinteraction
+  [state=start,
+$if(title)$
+  title={$title$},
+$endif$
+$if(subtitle)$
+  subtitle={$subtitle$},
+$endif$
+$if(author)$
+  author={$for(author)$$author$$sep$; $endfor$},
+$endif$
+$if(keywords)$
+  keyword={$for(keywords)$$keywords$$sep$; $endfor$},
+$endif$
+  color=sectioncolor]
 
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
 \setuplayout    [width=middle, height=middle,
@@ -82,18 +96,18 @@ $header-includes$
 $endfor$
 
 \starttext
-$if(title)$
-\startalignment[center]
-  \blank[2*big]
-  {\tfd $title$}
-$if(author)$
-  \blank[3*medium]
-  {\tfa $for(author)$$author$$sep$\crlf $endfor$}
-$endif$
-$if(date)$
-  \blank[2*medium]
-  {\tfa $date$}
-$endif$
+% $if(title)$
+% \startalignment[center]
+%   \blank[2*big]
+%   {\tfd $title$}
+% $if(author)$
+%   \blank[3*medium]
+%   {\tfa $for(author)$$author$$sep$\crlf $endfor$}
+% $endif$
+% $if(date)$
+%   \blank[2*medium]
+%   {\tfa $date$}
+% $endif$
   \blank[3*medium]
 \stopalignment
 $endif$
