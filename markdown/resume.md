@@ -9,7 +9,7 @@
 
 > I lead teams that focus on maximizing the time engineers and stakeholders spend on solving business problems, and
 > minimize the time they need to spend on technical details around implementation, deployment, operations, and
-> monitoring of these solutions. I accomplish this through thoughtful balance: when to accrue technical debt and when to
+> monitoring of these solutions. I accomplish this through careful balance: when to accrue technical debt and when to
 > pay it back,, when to build and to buy, when to question and to commit, and when to put business needs over technical
 > correctness. Through a nuanced and thoughtful approach, I ensure teams are empowered to focus on core problem-solving,
 > enhancing overall productivity and achieving organizational objectives.
