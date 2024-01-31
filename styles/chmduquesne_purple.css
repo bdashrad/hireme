@@ -101,24 +101,24 @@ table {
 
 /* PDF button */
 .pdfdownload a {
-  top: 0px;
-  right: 0px;
+    top: 0px;
+    right: 0px;
 }
 .pdfdownload {
-  position: relative;
+    position: relative;
 }
 .btn {
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 12px;
-  background: #7B52AE;
-  padding: 10px 15px 10px 15px;
-  text-decoration: none;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    background: #7B52AE;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
 }
 .btn:hover {
-  background: #471871;
-  text-decoration: none;
+    background: #471871;
+    text-decoration: none;
 }
 </style>

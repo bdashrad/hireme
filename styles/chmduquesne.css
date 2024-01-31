@@ -46,11 +46,11 @@ h2:before {
     /* This is called "rulecolor" in the ConTeXt stylesheet. */
     background-color: #9CB770;
 }
-/* h2:hover { */
-/*     background-color: #397249; */
-/*     color: #FFFFFF; */
-/*     text-shadow: 1px 1px 1px #333; */
-/* } */
+/* h2:hover {
+    background-color: #397249;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333;
+} */
 
 /* Definitions */
 dt {
@@ -96,24 +96,24 @@ table {
 
 /* PDF button */
 .pdfdownload a {
-  top: 0px;
-  right: 0px;
+    top: 0px;
+    right: 0px;
 }
 .pdfdownload {
-  position: relative;
+    position: relative;
 }
 .btn {
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 12px;
-  background: #9CB770;
-  padding: 10px 15px 10px 15px;
-  text-decoration: none;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    background: #9CB770;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
 }
 .btn:hover {
-  background: #397249;
-  text-decoration: none;
+    background: #397249;
+    text-decoration: none;
 }
 </style>
