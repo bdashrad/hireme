@@ -5,16 +5,16 @@
 ```bash
 git clone https://github.com/bdashrad/hireme
 cd hireme
-vim markdown/resume.md   #insert your own resume info
+vim resume_source/resume.md   #insert your own resume info
 ```
 
 ### Docker
 
 ```bash
-docker-compose up -d
+docker-compose run resume-make
 ```
 
-#### Requirements
+#### Docker Requirements
 
 * Docker
 * Docker Compose
@@ -25,7 +25,7 @@ docker-compose up -d
 make
 ```
 
-#### Requirements
+#### Local Requirements
 
 When not using docker, you will need the following:
 
@@ -59,7 +59,6 @@ issue.
 
 =======
 
-Sample
--------
+## Sample
 
 ![resume_sample](https://cloud.githubusercontent.com/assets/2762198/15026479/892ee606-120c-11e6-8c94-ed6e3fc9bf90.png)

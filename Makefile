@@ -1,19 +1,21 @@
 # SHELL := /bin/bash
 
 OUT_DIR=output
-IN_DIR=markdown
+IN_DIR=resume_source
 STYLES_DIR=styles
 STYLE=chmduquesne_purple
+TEMPLATES_DIR=templates
 
-all: html pdf docx rtf md
+all: html pdf docx rtf txt md
 
 pdf: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.pdf; \
-		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
+		pandoc --standalone --template $(TEMPLATES_DIR)/$(STYLE).tex \
 			--from markdown --to context \
 			--variable papersize=letter \
+			--metadata-file=$(IN_DIR)/metadata.yaml \
 			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
 		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
 	done
@@ -25,31 +27,43 @@ html: init
 		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
-			--template templates/template.html5 \
-			--output $(OUT_DIR)/$$FILE_NAME.html $$f \
-			--metadata pagetitle=$$FILE_NAME;\
+			--template $(TEMPLATES_DIR)/template.html5 \
+			--metadata-file=$(IN_DIR)/metadata.yaml \
+			--output $(OUT_DIR)/$$FILE_NAME.html $$f ;\
 	done
 
 docx: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
-		echo $$FILE_NAME.docx; \
-		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.docx; \
+		TARGET_NAME=$$FILE_NAME.docx; \
+		echo $$TARGET_NAME; \
+		pandoc --standalone $$SMART $$f \
+			--metadata-file=$(IN_DIR)/metadata.yaml \
+			--output $(OUT_DIR)/$$TARGET_NAME; \
 	done
 
 rtf: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
-		echo $$FILE_NAME.rtf; \
-		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.rtf; \
+		TARGET_NAME=$$FILE_NAME.rtf; \
+		echo $$TARGET_NAME; \
+		pandoc --standalone $$SMART $$f \
+			--metadata-file=$(IN_DIR)/metadata.yaml \
+			--output $(OUT_DIR)/$$TARGET_NAME; \
 	done
 
-md: init
+txt: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
-		echo $$FILE_NAME.md; \
-		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.md; \
+		TARGET_NAME=$$FILE_NAME.txt; \
+		echo $$TARGET_NAME; \
+		pandoc --standalone $$SMART $$f \
+			--metadata-file=$(IN_DIR)/metadata.yaml \
+			--output $(OUT_DIR)/$$TARGET_NAME; \
 	done
+
+md:
+	cp $(IN_DIR)/*.md $(OUT_DIR)/
 
 init: dir version
 
@@ -69,4 +83,3 @@ clean:
 
 publish:
 	rsync -avP $(OUT_DIR)/* /var/www/hireme/
-	rsync -avP markdown/resume.md /var/www/hireme/

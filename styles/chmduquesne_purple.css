@@ -25,11 +25,15 @@ h1 {
     text-align:center;
     margin-bottom:15px;
 }
-/* h1:hover { */
-/*     background-color: #653496; */
-/*     color: #FFFFFF; */
-/*     text-shadow: 1px 1px 1px #333; */
-/* } */
+/* h1:hover {
+    background-color: #653496;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333;
+} */
+
+h1.title, h1.subtitle, h2.author, h3.date {
+    display: none;
+}
 
 /* Titles of categories */
 h2 {
@@ -47,9 +51,9 @@ h2:before {
     background-color: #7B52AE;
 }
 /* h2:hover {
-/*     background-color: #471871; */
-/*     color: #FFFFFF; */
-/*     text-shadow: 1px 1px 1px #333; */
+    background-color: #471871;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333;
 } */
 /* h3:hover {
     background-color: #653496;
@@ -75,7 +79,7 @@ p {
 
 /* Blockquotes */
 blockquote {
-    text-align: center
+    text-align: left
 }
 
 /* Links */
@@ -101,24 +105,24 @@ table {
 
 /* PDF button */
 .pdfdownload a {
-  top: 0px;
-  right: 0px;
+    top: 0px;
+    right: 0px;
 }
 .pdfdownload {
-  position: relative;
+    position: relative;
 }
 .btn {
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 12px;
-  background: #7B52AE;
-  padding: 10px 15px 10px 15px;
-  text-decoration: none;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    background: #7B52AE;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
 }
 .btn:hover {
-  background: #471871;
-  text-decoration: none;
+    background: #471871;
+    text-decoration: none;
 }
 </style>

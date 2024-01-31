@@ -1,12 +1,12 @@
 % Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
 % Copyright 2014 Mark Szepieniec <http://github.com/mszep>
-% 
+%
 % ConText style for making a resume with pandoc. Inspired by moderncv.
-% 
+%
 % This CSS document is delivered to you under the CC BY-SA 3.0 License.
 % https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
 
-\startmode[*mkii]
+\startmode[*mkivi]
   \enableregime[utf-8]
   \setupcolors[state=start]
 \stopmode
@@ -15,12 +15,26 @@ $if(mainlang)$
 $endif$
 
 \setupcolor[hex]
-\definecolor[titlegrey][h=757575]
-\definecolor[sectioncolor][h=397249]
-\definecolor[rulecolor][h=9cb770]
+\definecolor[titlegrey][h=653496]
+\definecolor[sectioncolor][h=471871]
+\definecolor[rulecolor][h=7b52ae]
 
 % Enable hyperlinks
-\setupinteraction[state=start, color=sectioncolor]
+\setupinteraction
+  [state=start,
+$if(title)$
+  title={$title$},
+$endif$
+$if(subtitle)$
+  subtitle={$subtitle$},
+$endif$
+$if(author)$
+  author={$for(author)$$author$$sep$; $endfor$},
+$endif$
+$if(keywords)$
+  keyword={$for(keywords)$$keywords$$sep$; $endfor$},
+$endif$
+  color=sectioncolor]
 
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
 \setuplayout    [width=middle, height=middle,
@@ -40,7 +54,7 @@ $endif$
 \setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
 \setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
                           before={\leavevmode\blackrule\hspace}]
-\setuphead[subsubsection][style=\bf]
+\setuphead[subsubsection][style=\bfa, color=black, before={\blank}]
 
 $if(number-sections)$
 $else$
@@ -67,9 +81,11 @@ $endif$
 
 \setupdelimitedtext
   [blockquote]
-  [before={\setupalign[middle]},
+  [before={\setupalign[right]},
    indentnext=no,
   ]
+
+\setupalign[nothyphenated]
 
 $if(toc)$
 \setupcombinedlist[content][list={$placelist$}]
@@ -80,18 +96,18 @@ $header-includes$
 $endfor$
 
 \starttext
-$if(title)$
-\startalignment[center]
-  \blank[2*big]
-  {\tfd $title$}
-$if(author)$
-  \blank[3*medium]
-  {\tfa $for(author)$$author$$sep$\crlf $endfor$}
-$endif$
-$if(date)$
-  \blank[2*medium]
-  {\tfa $date$}
-$endif$
+% $if(title)$
+% \startalignment[center]
+%   \blank[2*big]
+%   {\tfd $title$}
+% $if(author)$
+%   \blank[3*medium]
+%   {\tfa $for(author)$$author$$sep$\crlf $endfor$}
+% $endif$
+% $if(date)$
+%   \blank[2*medium]
+%   {\tfa $date$}
+% $endif$
   \blank[3*medium]
 \stopalignment
 $endif$

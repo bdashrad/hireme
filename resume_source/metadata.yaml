@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/pandoc/scholarly-metadata/master/default-pandoc-schema.json
+---
+title: Brad Clark Resume
+pagetitle: Brad Clark Resume
+author: Brad Clark (bradfordallenclark@gmail.com)
+keywords:
+  - resume
+  - cv
+  - brad clark
+  - bradford clark
+  - bradford allen clark
+  - kubernetes
+  - docker
+  - platform engineer
+  - infrastructure engineer
+  - data engineer
+  - devops
+  - cloud
+  - aws
+  - gcp
+...

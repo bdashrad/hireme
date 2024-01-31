@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - 'markdown/**'
+      - 'resume_source/**'
   pull_request:
 
   # Allows you to run this workflow manually from the Actions tab
@@ -22,4 +22,4 @@ jobs:
       - uses: articulate/actions-markdownlint@v1
         with:
           config: .markdownlint.json
-          files: 'markdown/*.md'
+          files: 'resume_source/*.md'
