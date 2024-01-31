@@ -47,18 +47,18 @@ Other
 **Head of Platform and Data Engineering**; 8/2023 — Present
 
 - Built the data engineering organization from scratch, through hiring and internal development of existing engineers
-- Managed members of four engineering teams: software development, platform engineering, and data engineering, providing
+- Managed members of four engineering teams: Software Development, Platform Engineering, and Data Engineering. Provided
   mentorship and coaching while balancing business needs and priorities
 - Worked closely with business stakeholders, such as the Revenue Cycle, Clinical Outreach, and Partner Relations teams,
   to identify key projects that have the largest business impact
-- Product manager for data engineering and platform engineering, balancing feature work with tech debt
+- Acting Product Manager for Data Engineering and Platform Engineering, balancing feature work with tech debt
 - Reduced data processing times for tasks from 24-72 hours to approximately 15 minutes by improving pipelines, allowing
   for improved outcomes by shortening the time between events and member outreach
 - Reduced manual task ingestion work by 98% through automation
 
 **Head of Infrastructure**; 4/2021 — 8/2023
 
-- Hired and built the infrastructure engineering team from scratch
+- Hired and built the Infrastructure Engineering team from scratch
 - Co-authored, designed, and developed our engineering hiring guidelines and process, helping to provide a consistent
   candidate experience and shorten our hiring cycle, while maintaining quality
 - Created career ladders and competency matrices to align salary and performance expectations, and provide clear growth
