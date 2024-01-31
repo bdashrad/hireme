@@ -47,8 +47,8 @@ Other
 **Head of Platform and Data Engineering**; 8/2023 — Present
 
 - Built the data engineering organization from scratch, through hiring and internal development of existing engineers
-- Managed members of four engineering teams: Software Development, Platform Engineering, and Data Engineering. Provided
-  mentorship and coaching while balancing business needs and priorities
+- Managed members of four engineering teams across multiple disciplines: Software Development, Platform Engineering, and
+  Data Engineering. Provided mentorship and coaching while balancing business needs and priorities
 - Worked closely with business stakeholders, such as the Revenue Cycle, Clinical Outreach, and Partner Relations teams,
   to identify key projects that have the largest business impact
 - Acting Product Manager for Data Engineering and Platform Engineering, balancing feature work with tech debt
