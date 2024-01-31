@@ -65,7 +65,7 @@ Other
   paths for team members
 - Created onboarding and 30/60/90 day goals for engineers, creating a clearly defined path through onboarding to improve
   the new hire experience. If a new user has a bad time, it’s a bug.
-- Achieved a near-zero rate of bad production deploys (99.98% app uptime) via improved observability tooling. This was
+- Achieved a near-zero rate of bad production deploymentss (99.98% app uptime) via improved observability. This was
   accomplished through strategic mentorship of an engineer, guiding them to spearhead this project, which led to both
   increased service reliability and professional growth in key areas, such as cross-team collaboration and communication
 - Authored and implemented a production-readiness process, providing clear guidelines for engineers to launch stable,
