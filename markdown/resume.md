@@ -65,8 +65,11 @@ Other
   paths for team members
 - Created onboarding and 30/60/90 day goals for engineers, creating a clearly defined path through onboarding to improve
   the new hire experience. If a new user has a bad time, it’s a bug.
-- Reduced number of bad production deploys to near-zero (99.98% app uptime) by implementing observability tooling and
-  a production readiness process, enabling problem detection before services were impacted
+- Achieved a near-zero rate of bad production deploys (99.98% app uptime) via improved observability tooling. This was
+  accomplished through strategic mentorship of an engineer, guiding them to spearhead this project, which led to both
+  increased service reliability and professional growth in key areas, such as cross-team collaboration and communication
+- Authored and implemented a production-readiness process, providing clear guidelines for engineers to launch stable,
+  observable, and maintainable services.
 - Ensured products and systems met HIPAA compliance by leading architecture and technical discussions and
   implementations. Helped achieve SOC2 Type 1 compliance by partnering with the CISO and Head of Product Operations to
   complete the work across various teams, delegating work as required to complete our audit.
@@ -94,8 +97,10 @@ Other
 
 **Infrastructure Engineer**; 8/2016 — 1/2019
 
-- Moved all AWS infrastructure to terraform, enabling auditing of changes, decreased deployment time, and rapid disaster
-  recovery
+- Led project to manage all AWS resources as Infrastructure as Code, using Terraform, reducing differences between
+  multiples environments, which ultimately cut down development time and reduced deployment risk.
+- Helped maintain compliance (HIPAA, NYDFS),improved security posture, and decreased effort and time required for
+  disaster recovery with auditable infrastructure changes, RBAC (Role Based Access Control) managed through Terraform.
 - Designed event message store backed by Elasticsearch, enabling efficient and reliable communication between dozens of
   microservices, reducing technical debt while providing durability and the ability to replay messages as needed
 - Reduced deployment time ~90% by migrating microservices from Elastic Beanstalk to Kubernetes
