@@ -82,13 +82,13 @@ Other
 
 **Associate Director, Senior Infrastructure Engineer**; 1/2019 — 4/2021
 
-- Rebuilt infrastructure team from near-zero to 5 engineers
+- Rebuilt Infrastructure Engineering team from near-zero to 5 engineers
 - Advised engineering teams on platform and architectural decisions
-- Provided technical and professional leadership and mentorship to the infrastructure team
+- Provided technical and professional leadership and mentorship to the Infrastructure Engineering team
 - Wrote production readiness guidelines, establishing a base set of recommendations for engineers when creating
   products, and advised development teams on best practices for monitoring, operating, and maintaining stable, reliable
   services
-- Maintain a standardized deployment pipeline built with github actions, docker, and helm and multiple Kubernetes
+- Maintain a standardized deployment pipeline built with Github Actions, Docker, Helm, and multiple Kubernetes
   environments
 - Redesigned MongoDB deployment to allow for the automation of most of the manual work required to replace lost nodes or
   perform maintenance, reducing risk and greatly decreasing recovery time
@@ -99,7 +99,7 @@ Other
 
 - Led project to manage all AWS resources as Infrastructure as Code, using Terraform, reducing differences between
   multiple environments, which ultimately cut down development time and reduced deployment risk.
-- Helped maintain compliance (HIPAA, NYDFS),improved security posture, and decreased effort and time required for
+- Helped maintain compliance (HIPAA, NYDFS), improved security posture, and decreased effort and time required for
   disaster recovery with auditable infrastructure changes, RBAC (Role Based Access Control) managed through Terraform.
 - Designed event message store backed by Elasticsearch, enabling efficient and reliable communication between dozens of
   microservices, reducing technical debt while providing durability and the ability to replay messages as needed
@@ -117,7 +117,7 @@ Other
 
 **Site Reliability Engineer**; 8/2014 — 5/2016
 
-- Ensured site availability during some of the world's largest events: The Olympics, The Superbowl, and more.
+- Ensured site availability during some of the world's largest events: The Olympics, The Super Bowl, and more.
 - Dedicated operations resource for large enterprise customer
 - Worked in a high-touch relationship with the customer, including regular calls and on-site visits
 - Reduced downtime to near-zero from multiple customers, by developing tools for auditing and automation to allow for
@@ -128,7 +128,7 @@ Other
 
 **Senior Cloud Systems Engineer**; 7/2013 — 8/2014
 
-- Manage and maintain 13,000+ Linux Systems on Amazon EC2.
+- Managed and maintained 13,000+ Linux Systems on Amazon EC2.
 - Redesigned the monitoring system to accommodate 10,000+ systems and 300,000+ services
 - Lowered MTTR (mean time to resolve) by developing command-line tooling for automating ticket creation
 - Improved engineer productivity by creating a standardized development environment using Vagrant
@@ -139,13 +139,13 @@ Other
 
 - Centralized management configuration and security updates for Red Hat, CentOS, and Ubuntu Servers
 - Architected system and network monitoring across multiple sites worldwide, using Nagios, Icinga, and Splunk
-- Acted as company Security Administrator, for PCI-DSS certification. Assisted in writing policies, procedures, and
+- Acted as company Security Administrator for PCI-DSS certification. Assisted in writing policies, procedures, and
   reviewing all security incidents
 
 **IT Infrastructure Consultant**; 2/2011 — 10/2011
 
 - Created PC cloning and imaging solution using Clonezilla and DRBL
-- Designed and implemented escalation procedures for operations to development
+- Designed and implemented escalation procedures for Operations to Development
 
 ## Education
 
