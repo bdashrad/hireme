@@ -70,4 +70,3 @@ clean:
 
 publish:
 	rsync -avP $(OUT_DIR)/* /var/www/hireme/
-	rsync -avP markdown/resume.md /var/www/hireme/
