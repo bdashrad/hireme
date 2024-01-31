@@ -8,11 +8,11 @@
 ---
 
 > I lead teams that focus on maximizing the time engineers and stakeholders spend on solving business problems, and
-> minimize the time they need to spend on technical details around implementation, deployment, operations, and
-> monitoring of these solutions. I accomplish this through careful balance: when to accrue technical debt and when to
-> pay it back,, when to build and to buy, when to question and to commit, and when to put business needs over technical
-> correctness. Through a nuanced and thoughtful approach, I ensure teams are empowered to focus on core problem-solving,
-> enhancing overall productivity and achieving organizational objectives.
+> minimize the time they need to spend on technical details around implementation and operation of these solutions. I
+> accomplish this through careful balance: when to accrue technical debt and when to pay it back,, when to build or buy,
+> when to question and to commit, and when to put business needs over technical correctness. Through a nuanced and
+> thoughtful approach, I empower teams to focus on core problem-solving, enhancing overall productivity and achieving
+> organizational goals.
 
 ## Summary
 
@@ -91,14 +91,14 @@ Other
 - Maintain a standardized deployment pipeline built with github actions, docker, and helm and multiple Kubernetes
   environments
 - Redesigned MongoDB deployment to allow for the automation of most of the manual work required to replace lost nodes or
-  perform maintenance, reducing risk and greatly decreasing recovery time.
+  perform maintenance, reducing risk and greatly decreasing recovery time
 
 ### Maxwell Health – Hybrid, Boston, MA
 
 **Infrastructure Engineer**; 8/2016 — 1/2019
 
 - Led project to manage all AWS resources as Infrastructure as Code, using Terraform, reducing differences between
-  multiples environments, which ultimately cut down development time and reduced deployment risk.
+  multiple environments, which ultimately cut down development time and reduced deployment risk.
 - Helped maintain compliance (HIPAA, NYDFS),improved security posture, and decreased effort and time required for
   disaster recovery with auditable infrastructure changes, RBAC (Role Based Access Control) managed through Terraform.
 - Designed event message store backed by Elasticsearch, enabling efficient and reliable communication between dozens of
