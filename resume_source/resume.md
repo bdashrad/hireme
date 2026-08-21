@@ -53,7 +53,8 @@ Other
 the organization
 - Built and operated secure, scalable, highly available cloud infrastructure with emphasis on reliability, observability,
   automation, and cost management
-- Acted as subject matter expert on infrastructure, security, and compliance, providing technical direction to engineering teams.
+- Acted as subject matter expert on infrastructure, security, and compliance, providing technical direction to
+  engineering teams.
 
 ### Eleanor Health – Remote
 
