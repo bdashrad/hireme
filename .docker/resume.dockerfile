@@ -1,6 +1,8 @@
 # syntax=docker/dockerfile:1
 
-FROM contextgarden/context:lmtx
+FROM --platform=linux/amd64 pandoc/latex:2-ubuntu AS pandoc_amd64
+
+FROM --platform=linux/amd64 contextgarden/context:lmtx
 
 RUN --mount=type=cache,target=/var/cache/apt \
   apt-get update \
@@ -9,7 +11,7 @@ RUN --mount=type=cache,target=/var/cache/apt \
   liblua5.3-0 \
   lua-lpeg
 
-COPY --from=pandoc/latex:2-ubuntu /usr/local/bin/pandoc /usr/local/bin/pandoc
+COPY --from=pandoc_amd64 /usr/local/bin/pandoc /usr/local/bin/pandoc
 
 RUN mtxrun --generate
 

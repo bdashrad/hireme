@@ -16,7 +16,7 @@
 
 ## Summary
 
-- 13+ years combined experience in leadership and platform engineering; built engineering teams from scratch up to 6
+- 15+ years combined experience in leadership and platform engineering; built engineering teams from scratch up to 6
   engineers
 - Maintained 99.98% service uptime by implementing best practices, observability tooling, and CI/CD improvements
 - Able to quickly switch from a high-level business-centric view of a situation to a deep technical dive as required
@@ -42,9 +42,22 @@ Other
 
 ## Experience
 
+### Author Health - Remote
+
+**Director of Platform Engineering**; 3/2024 – Present
+
+- Defined and led the infrastructure platform, DevOps, and InfoSec strategy, aligning cloud architecture and engineering
+  execution with company goals
+- Fostered a security-first engineering culture and served as Security Officer for HIPAA and other compliance requirements
+- Led efforts to achieve HITRUST e1 and i1 certification, coordinating security, infrastructure, and compliance work across
+the organization
+- Built and operated secure, scalable, highly available cloud infrastructure with emphasis on reliability, observability,
+  automation, and cost management
+- Acted as subject matter expert on infrastructure, security, and compliance, providing technical direction to engineering teams.
+
 ### Eleanor Health – Remote
 
-**Head of Platform and Data Engineering**; 8/2023 — Present
+**Head of Platform and Data Engineering**; 8/2023 — 2/2024
 
 - Built the data engineering organization from scratch, through hiring and internal development of existing engineers
 - Managed members of four engineering teams across multiple disciplines: Software Development, Platform Engineering, and
