@@ -44,9 +44,9 @@ Other
 
 ## Experience
 
-### Author Health – Remote
+### Author Health | Remote
 
-**Director of Platform Engineering**; 3/2024 – Present
+**Director of Platform Engineering** | 3/2024 – Present
 
 - Defined and led the infrastructure platform and InfoSec strategy, aligning cloud architecture and engineering
   execution with company goals
@@ -63,7 +63,7 @@ Other
 
 ### LightTouch Technology
 
-**Owner**; 2/2024 – Present
+**Owner** | 2/2024 – Present
 
 - Provided infrastructure consulting and engineering to early- and mid-stage SaaS companies, primarily in the healthcare
   space, spanning both advisory and hands-on implementation
@@ -75,9 +75,9 @@ Other
 - Led migration of multiple databases and applications from AWS and Aptible to GCP, consolidating data into a secure,
   BigQuery-based data warehouse
 
-### Eleanor Health – Remote
+### Eleanor Health | Remote
 
-**Head of Platform and Data Engineering**; 8/2023 — 2/2024
+**Head of Platform and Data Engineering** | 8/2023 – 2/2024
 
 - Built the data engineering organization from scratch, through hiring and internal development of existing engineers
 - Managed members of four engineering teams across multiple disciplines: Software Development, Platform Engineering, and
@@ -89,7 +89,7 @@ Other
   for improved outcomes by shortening the time between events and member outreach
 - Reduced manual task ingestion work by 98% through automation
 
-**Head of Infrastructure**; 4/2021 — 8/2023
+**Head of Infrastructure** | 4/2021 – 8/2023
 
 - Hired and built the Infrastructure Engineering team from scratch
 - Co-authored, designed, and developed our engineering hiring guidelines and process, helping to provide a consistent
@@ -111,9 +111,9 @@ Other
 - Designed systems to meet disaster recovery goals and compliance (HIPAA, SOC2) requirements
 - Decreased page load times by over 50% by identifying areas for improvement and facilitating their implementation
 
-### Sun Life (Maxwell Health) – Remote
+### Sun Life (Maxwell Health) | Remote
 
-**Associate Director, Senior Infrastructure Engineer**; 1/2019 — 4/2021
+**Associate Director, Senior Infrastructure Engineer** | 1/2019 – 4/2021
 
 - Rebuilt Infrastructure Engineering team from near-zero to 5 engineers
 - Advised engineering teams on platform and architectural decisions
@@ -126,9 +126,9 @@ Other
 - Redesigned MongoDB deployment to allow for the automation of most of the manual work required to replace lost nodes or
   perform maintenance, reducing risk and greatly decreasing recovery time
 
-### Maxwell Health – Hybrid, Boston, MA
+### Maxwell Health | Hybrid, Boston, MA
 
-**Infrastructure Engineer**; 8/2016 — 1/2019
+**Infrastructure Engineer** | 8/2016 – 1/2019
 
 - Led project to manage all AWS resources as Infrastructure as Code, using Terraform, reducing differences between
   multiple environments, which ultimately cut down development time and reduced deployment risk
@@ -140,9 +140,9 @@ Other
 - Enhanced developer productivity by building templated Helm charts for Kubernetes
 - Improved engineer efficiency, cross-team collaboration, and software security by standardizing our CI/CD build pipeline
 
-### Acquia – Hybrid, Boston, MA
+### Acquia | Hybrid, Boston, MA
 
-**Site Reliability Engineer**; 8/2014 — 5/2016
+**Site Reliability Engineer** | 8/2014 – 5/2016
 
 - Ensured site availability during some of the world's largest events: The Olympics, The Super Bowl, and more
 - Worked in a high-touch relationship with large enterprise customer, including regular calls and on-site visits
@@ -151,16 +151,16 @@ Other
 - Improved platform monitoring and created auditing tools to improve stability
 - Built tooling to use metrics to provide proactive notifications of pending issues before they occur
 
-**Senior Cloud Systems Engineer**; 7/2013 — 8/2014
+**Senior Cloud Systems Engineer** | 7/2013 – 8/2014
 
 - Managed and maintained 13,000+ Linux Systems on Amazon EC2
 - Redesigned the monitoring system to accommodate 10,000+ systems and 300,000+ services
 - Lowered MTTR (mean time to resolve) and improved engineer productivity by developing standardized tooling and
   development environments
 
-### PlumChoice – Boston, MA
+### PlumChoice | Lowell, MA
 
-**Linux Systems Administrator**; 2/2011 — 7/2013
+**Linux Systems Administrator** | 2/2011 – 7/2013
 
 - Centralized management configuration and security updates for Red Hat, CentOS, and Ubuntu Servers
 - Architected system and network monitoring across multiple sites worldwide, using Nagios, Icinga, and Splunk
