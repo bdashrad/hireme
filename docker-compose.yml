@@ -1,12 +1,9 @@
-version: '2'
-
 services:
-
   resume-make:
     build:
       context: .
       dockerfile: ./.docker/resume.dockerfile
     container_name: resume-make
-    image: resume-make
+    image: ghcr.io/bdashrad/hireme:main
     volumes:
       - .:/data

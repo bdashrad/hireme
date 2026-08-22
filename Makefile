@@ -12,7 +12,7 @@ pdf: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.pdf; \
-		pandoc --standalone --template $(TEMPLATES_DIR)/$(STYLE).tex \
+		pandoc --standalone --wrap=none --template $(TEMPLATES_DIR)/$(STYLE).tex \
 			--from markdown --to context \
 			--variable papersize=letter \
 			--metadata-file=$(IN_DIR)/metadata.yaml \
@@ -24,7 +24,7 @@ html: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.html; \
-		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
+		pandoc --standalone --wrap=none --include-in-header $(STYLES_DIR)/$(STYLE).css \
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
 			--template $(TEMPLATES_DIR)/template.html5 \
